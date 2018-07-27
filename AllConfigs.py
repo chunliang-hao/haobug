@@ -1,4 +1,5 @@
 class Config:
+    ####################Please modify all below path to get the model working######################
     repository_path ='/home/geppetto/jie/haobug/dlib_and_chehra_stuff'
     ert_model_path ='/home/geppetto/jie/haobug/dlib_and_chehra_stuff/models/new3_68_pts_UAD_1_tr_6_cas_15.dat'
     auxiliary_model_path ='/home/geppetto/jie/haobug/dlib_and_chehra_stuff/models/additional_svrs.model'
@@ -8,10 +9,5 @@ class Config:
     hard_failure_threshold = -0.5
     soft_failure_threshold = 0.0
     maximum_number_of_soft_failures = 2
-
-    au_model_path ='/home/geppetto/jie/haobug/models/AU12_c4_v2.h5'
-    mean_face_path ='/home/geppetto/jie/haobug/models/disfa_fera2015_combined_mean.npy'
-
-    cuda_visible_devices = 1
-    processes_per_card = 2
+    
     use_gamma_correction = 1
